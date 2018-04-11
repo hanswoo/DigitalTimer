@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //앱실행시 스위치가 꺼진상태로 시작 한다
         stw.isOn = false
 //        myTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
         
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
 //        myTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {(myTimer) in
 //            self.updateTime()
 //        })
+    
     }
     @objc func updateTime(){
         let date = Date()
